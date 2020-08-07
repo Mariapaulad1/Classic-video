@@ -1454,6 +1454,333 @@ text-decoration: none;
 }
                                  
                                  /*Fin error.html*/
+
+@media only screen and (max-width: 360px){
+
+/* Comienzo index.html*/
+
+.header{
+  width: 330%;
+}
+
+.header__img{
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+.header__menu__profile{
+  margin-left: -550px;
+  margin-top: 40px;
+}
+
+.main{
+  width: 200%;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.main__title{
+  font-size: 30px;
+}
+
+.categories__title {
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.carousel{
+  width: 190%;
+
+}
+
+.carousel__container{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.footer{
+  width:190%;
+  height: 310px;
+}
+
+.footer a{
+  font-size: 20px;
+}
+
+
+  /*Fin index.html*/
+
+  
+  /*Comienzo inicia-sesion.html*/
+  
+  .header-login__img{
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 50px;
+  }
+
+.login__container {
+  padding: 40px 48px 20px;
+  min-height: 500px;
+  width: 67%;
+  margin-top: 20px;
+  }
+
+  .login-title{
+    font-size: 20px;
+  }
+  
+  ::placeholder{
+    font-size: 16px;
+  }
+
+.input-login {
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  height: 40px;
+  width: 200px;
+  margin-left: -18px;
+  }
+
+.login-button{
+  height: 30px;
+  width: 230px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+.login-button a{
+  font-size: 14px;
+}
+
+.login__container--form {
+  margin-right: -20px;
+
+  }
+
+.login__container--form label {
+  font-size: 12px;
+  
+  }
+
+.login__container--remember-me {
+  margin-top: 14px;
+  margin-left: -25px;
+  
+  } 
+.login__container--remember-me a {
+  font-size: 12px;
+  margin-top: 4px;
+
+  }
+
+  .login__container--register {
+  font-size: 12px;  
+  width: 250px;
+  margin-left: -20px;
+}
+
+.login__container--register a {
+  font-size: 12px;  
+}
+
+.login__container--social-media > div {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.login__container--social-media > div > img {
+  width: 25px;
+
+}
+
+.footer-login a{
+  font-size: 10px;
+  padding-right: 5px;
+  margin-right: 7px;
+  text-decoration: none;
+  }
+  
+  /*Fin inicia-sesion.htm*/
+
+  /*Comienzo registro.html*/
+
+  .header-register__img{
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 55px;
+  }
+
+.register__container {
+  padding: 40px 48px 20px;
+  min-height: 500px;
+  width: 67%;
+  margin-top: 20px;
+  }
+
+.register-title{
+  font-size: 20px;
+}
+
+.input-register {
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  height: 40px;
+  width: 200px;
+  margin-left: -18px;
+
+  }
+
+  ::placeholder{
+    font-size: 15px;
+  }
+
+.button-register{
+  height: 32px;
+  width: 230px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  }
+
+.button-register a{
+  font-size: 12px;
+
+}
+
+.register__container--form {
+  margin-right: -20px;
+
+  }
+
+.register-init__container--register a {
+  font-size: 14px; 
+
+}
+
+.footer-register{
+  width: 120%;
+}
+
+.footer-register a{
+  font-size: 10px;
+  padding-right: 5px;
+  margin-right: 7px;
+  margin-left: -3px;
+}
+
+                                /*Fin registro.html*/
+
+                                /*Comienzo cerrar sesion.html*/
+
+.header-salir__img{
+width: 200px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.salir-container p{
+font-size: 18px;
+margin-left: 0px;
+}
+
+.salir-container img{
+width: 80px;
+height: 80px;
+margin-left: 40px;
+}
+
+.salir-button{
+font-size: 12px;
+height: 30px;
+width: 100%;
+letter-spacing: 1px;
+margin: 10px 0;
+outline: none;
+}
+
+.footer-salir a{
+font-size: 10px;
+padding-right: 5px;
+margin-right: 7px;
+text-decoration: none;
+}
+
+                                /*Fin cerrar sesion.html*/
+
+                                /*Comienzo regok.html*/
+
+.header-regok__img{
+width: 200px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.regok-container p{
+font-size: 18px;
+margin-left: 0px;
+}
+
+.regok-container img{
+width: 80px;
+height: 80px;
+margin-left: 40px;
+}
+
+.regok-button{
+font-size: 12px;
+height: 30px;
+width: 100%;
+letter-spacing: 1px;
+margin: 10px 0;
+outline: none;
+}
+
+.footer-regok a{
+font-size: 10px;
+padding-right: 5px;
+margin-right: 7px;
+text-decoration: none;
+}
+                                
+                                /*Fin regok.html*/
+
+                                /*Comienzo error.html*/
+
+.header-error__img{
+width: 200px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.error-text{
+font-size: 18px;
+margin-left: 0px;
+}
+
+.error-button{
+font-size: 12px;
+height: 30px;
+width: 100%;
+letter-spacing: 1px;
+margin: 10px 0;
+outline: none;
+}
+
+.footer-error a{
+font-size: 10px;
+padding-right: 5px;
+margin-right: 7px;
+text-decoration: none;
+}
+                                
+                                /*Fin error.html*/
+} 
   
 @media only screen and (max-width: 320px){
  
