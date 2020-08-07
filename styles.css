@@ -6,7 +6,7 @@ body {
                                            /* Comienzo index.html*/
 .header{
   background: linear-gradient(#60d6af,#57c9aa);
-  width: 100%;
+  width: 150%;
   height: 100px;  
   display: flex;
   justify-content: space-between;
@@ -17,6 +17,15 @@ body {
   width: 300px;
   margin-top: 20px;
   margin-left: 20px;
+}
+
+.header__menu ol{
+  list-style: none;
+ 
+}
+
+.header__menu ol:hover{
+  text-decoration: underline;
 }
 
 .header__menu ul{
@@ -35,7 +44,7 @@ body {
 }
 
 .header__menu{
-  margin-right: 30px; 
+  margin-right: 800px; 
 }
 
 .header__menu__profile{
@@ -46,11 +55,12 @@ body {
 
 .header__menu__profile img{
   margin-right: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 50px;
   height: 50px;
   align-items: center;
 }
+
 
 .header__menu__profile p{
   margin-top: 20px;
@@ -899,6 +909,11 @@ text-decoration: underline;
  margin-left: 50px;
 }
 
+.header__menu{
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
 .header__menu__profile{
   margin-left: -600px; 
   margin-top: 20px;
@@ -924,7 +939,7 @@ li{
 }
 
 .main{
-  width: 150%;
+  width: 140%;
   height: 300px;
   margin-top: 30px;
 
@@ -945,7 +960,7 @@ li{
 
 .carousel{
   overflow: scroll;
-  width: 140%;
+  width: 130%;
   
 }
 
@@ -1152,7 +1167,7 @@ text-decoration: none;
   }
   
   .main{
-    width: 220%;
+    width: 200%;
     height: 300px;
     margin-top: 10px;
   }
@@ -1168,7 +1183,7 @@ text-decoration: none;
 
   .carousel{
     overflow: scroll;
-    width: 200%;
+    width: 190%;
     
   }
 
@@ -1449,7 +1464,7 @@ text-decoration: none;
   }
   
   .header__img{
-   width: 35%;
+   width: 30%;
    margin-top: 50px;
    margin-left: 30px;
   }
@@ -1461,7 +1476,7 @@ text-decoration: none;
   }
   
   .main{
-    width: 300%;
+    width: 270%;
     height: 350px;
     margin-top: 10px;
   }
@@ -1476,7 +1491,7 @@ text-decoration: none;
   }
 
   .carousel{
-    width: 280%;
+    width: 250%;
   
   }
 
