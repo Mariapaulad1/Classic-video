@@ -11,12 +11,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .header__img{
-  width: 300px;
+  width: 400px;
   margin-top: 20px;
   margin-left: 20px;
+ 
+  
 }
 
 .header__menu ol{
@@ -34,9 +37,8 @@ body {
   padding: 0;
   position: absolute;
   width: 100px;
-  text-align: right;
-  margin: 0px 0px 0px 30px;
-  
+  text-align: left;
+  margin: 160px 0px 0px 90px;
 }
 
 .header__menu:hover ul, ul:hover{
@@ -49,29 +51,29 @@ body {
 
 .header__menu__profile{
   margin-right: 40px;
-  color: white;
-  display: flex;    
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;   
 }
 
 .header__menu__profile img{
   margin-right: 30px;
-  margin-top: 30px;
-  width: 50px;
-  height: 50px;
-  align-items: center;
+  margin-top: 0px;
+  width: 60px;
+  height: 60px;
+ 
 }
 
 
-.header__menu__profile p{
-  margin-top: 20px;
-  margin-right: 40px;
-  align-items: center;
-  color: white;
+.header__menu__profile  p{
+  font-size: 20px;
 }
+
 
 .header__menu li{
   margin: 10px 0px;
-
+ 
 }
 
 .header__menu li a{
@@ -79,9 +81,6 @@ body {
   text-decoration: none;
 }
 
-.header__menu li a:hover{
-  text-decoration: underline;
-}
 
 .main {
   display: flex;
@@ -289,7 +288,7 @@ background-color: rgba(255, 255, 255, 0.1);
 border: 2px solid white;
 border-radius: 40px;
 color: white;
-padding: 60px 68px 40px;
+padding: 40px 68px 40px;
 min-height: 700px;
 width: 300px;
 display: flex;
@@ -301,6 +300,7 @@ flex-direction: column;
 font-family: 'Open Sans', sans-serif;
 display: flex;
 flex-direction: column;
+
 }
 
 .login__container--form label {
@@ -327,6 +327,7 @@ text-decoration: underline;
 .login__container--social-media > div {
 display: flex;
 align-items: center;
+justify-content: center;
 font-size: 14px;
 margin-bottom: 10px;
 }
@@ -365,7 +366,7 @@ border-left: 0px;
 border-top: 0px;
 border-right: 0px;
 border-bottom: 2px solid white;
-font-size: 16px;
+font-size: 20px;
 font-family: 'Open Sans', sans-serif;
 margin-bottom: 20px;
 margin-left: 0;
@@ -380,20 +381,20 @@ color: white;
 }
 
 .login-button{
-background-color: rgba(255, 255, 255, 0.3);
-border: none;
-border-radius: 25px;
-cursor: pointer;
-font-size: 18px;
-font-weight: bold;
-font-family: 'Open Sans', sans-serif;
-height: 50px;
-width: 350px;
-letter-spacing: 1px;
-margin-left: -25px;
-margin-top: 20px;
-margin-bottom: 20px;
-outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  height: 50px;
+  width: 320px;
+  letter-spacing: 1px;
+  margin-left: -15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  outline: none;
 }
 
 .login-button a{
@@ -476,6 +477,7 @@ flex-direction: column;
 
 .register-title{
 font-size: 30px;
+margin-top: -10px;
 text-align: center;
 font-weight: normal;
 }
@@ -491,7 +493,7 @@ border-left: 0px;
 border-top: 0px;
 border-right: 0px;
 border-bottom: 2px solid white;
-font-size: 16px;
+font-size: 18px;
 margin-bottom: 20px;
 margin-left: 0;
 padding: 0px 20px;
@@ -515,8 +517,8 @@ height: 50px;
 width: 350px;
 letter-spacing: 1px;
 margin-left: -25px;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 40px;
+margin-bottom: 30px;
 outline: none;
 }
 
@@ -593,71 +595,71 @@ margin-left: 30px;
 }
 
 .salir-container{
-background: linear-gradient(#52cea5, #AB88FF);
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 0 30px;
-min-height: calc(100vh - 200px);
-}
-
-.salir-container h1{
-color: white;
-font-size: 70px;
-font-weight: normal;
-margin-bottom: 40px;
-}
-
-.salir-container p{
-color: white;
-font-size: 30px;
-} 
-
-.salir-container img{
-width: 100px;
-height: 100px;
-justify-content: center;
-}
-
-.salir-button{
-background-color: rgba(255, 255, 255, 0.3);
-border: none;
-border-radius: 25px;
-cursor: pointer;
-font-size: 18px;
-font-weight: bold;
-font-family: 'Open Sans', sans-serif;
-height: 50px;
-width: 30%;
-letter-spacing: 1px;
-margin: 10px 0;
-outline: none;
-}
-
-.salir-button a{
-color: white;
-text-decoration: none;
-font-weight: normal;
-}
-
-.salir-button a:hover{
-text-decoration: underline;
-}
-
-@keyframes pulse {
-0% {transform: scale(1);}
-50% {transform: scale(1.1);}
-100% {transform: scale(1);}
-}
-
-.salir-text {
-animation-name: pulse;
-animation-duration: 1s;
-animation-duration: 2s;
-animation-fill-mode: both;
-animation-iteration-count: infinite;
-}
+  background: linear-gradient(#52cea5, #AB88FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+  min-height: calc(100vh - 200px);
+  }
+  
+  .salir-container h1{
+  color: white;
+  font-size: 70px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  }
+  
+  .salir-container p{
+  color: white;
+  font-size: 30px;
+  } 
+  
+  .salir-container img{
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  }
+  
+  .salir-button{
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  height: 50px;
+  width: 30%;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  outline: none;
+  }
+  
+  .salir-button a{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  }
+  
+  .salir-button a:hover{
+  text-decoration: underline;
+  }
+  
+  @keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+  }
+  
+  .salir-img {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  }
 
 .footer-salir {
 background-color: #AB88FF;
@@ -820,7 +822,7 @@ min-height: calc(100vh - 200px);
 
 .error-number{
 color: white;
-font-size: 70px;
+font-size: 90px;
 font-weight: normal;
 margin-bottom: 40px;
 }
@@ -895,17 +897,17 @@ text-decoration: underline;
 
                         /*Comienzo Responsive-design.html*/
                         
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
   /* Comienzo index.html*/
 
 .header{
-  width: 200%;
+  width: 450%;
 }
 
 .header__img{
- width: 30%;
- margin-top: 50px;
+ width: 22%;
+ margin-top: 120px;
  margin-left: 50px;
 }
 
@@ -919,34 +921,46 @@ text-decoration: underline;
   margin-top: 20px;
 }
 
+.header__menu ul{
+   text-align: left;
+   margin: 250px 0px 0px 220px;
+ }
+
 
 .header__menu li{
-  margin: 10px -48px;
+  margin: 10px -90px;
 }
 
 li{
-  font-size: 25px;
+  font-size: 30px;
+  
 }
 
 
 .header__menu__profile img{
-  width: 70px;
-  height: 70px;
+  width:18%;
+  height: 18%;
+  margin-top: 30px;
 }
 
 .header__menu__profile p{
-  font-size: 25px;
+  font-size: 35px;
+  margin-bottom: 55px;
+  margin-top: 80px;
 }
 
 .main{
-  width: 140%;
-  height: 300px;
+  width: 400%;
   margin-top: 30px;
-
 }
 
 .main__title{
-  font-size: 35px;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.input{
+  width: 50%;
 }
 
 ::placeholder {
@@ -955,13 +969,12 @@ li{
 
 .categories__title {
   margin-left: 20px;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 .carousel{
   overflow: scroll;
-  width: 130%;
-  
+  width: 390%;
 }
 
 .carousel__container{
@@ -969,8 +982,22 @@ li{
   margin-bottom: 15px;
 }
 
+.carousel-item img{
+  width: 500px;
+  height: 700px;
+}
+.carousel-item{
+  width: 500px;
+  height: 700px;
+ }
+
 .footer{
-  width:140%;
+  width:280%;
+  height: 450px;
+}
+
+.footer a{
+  font-size: 38px;
 }
 
 
@@ -979,14 +1006,26 @@ li{
  /*Comienzo inicia-sesion.html*/
 
  .login__container {
-  padding: 60px 68px 40px;
   margin-top: 50px;
 }
 
+.login-title{
+  font-size: 30px;
+}
+
 .login-button{
-  height: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: auto;
+}
+
+.input-login::placeholder{
+  font-size: 20px;
+}
+
+.login__container--social-media{
+ margin-left: -30px;
 }
 
 .login__container--social-media > div {
@@ -1021,21 +1060,20 @@ padding: 60px 68px 40px;
 margin-top: 50px;
 }
 
+::placeholder{
+  font-size: 18px;
+}
+
 .button-register{
 height: 55px;
-margin-top: 20px;
+margin-top: 30px;
 margin-bottom: 20px;
 }
 
-.register-init__container--register{
-margin-left: 20px;
-width: 300px;
-}
-
-.register-init__container--register a{
-display: flex;
-justify-content: center;
-}
+.register-init{
+  display: flex;
+  justify-content: center;
+  }
 
 .footer-register a {
 font-size: 16px;
@@ -1048,13 +1086,20 @@ text-decoration: none;
                                  /*Fin registro.html*/
 
                                  /*Comienzo cerrar sesion.html*/
+  .header-salir__img{
+    width: 40%;
+    margin-left: 40px;   
+  }
 
-.salir-container img{
-width: 100px;
-height: 100px;
-margin-left: 40px;
-margin-top: 50px;
+  .salir-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+.salir-img{
+justify-self: center;
 }
+  
 
 .salir-container p{
 font-size: 25px;
@@ -1070,8 +1115,13 @@ margin: 10px 0;
 outline: none;
 }
 
+.footer-salir{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .footer-salir a{
-font-size: 16px;
+font-size: 14px;
 padding-right: 5px;
 margin-right: 15px;
 text-decoration: none;
@@ -1080,17 +1130,19 @@ text-decoration: none;
                                  /*Fin cerrar sesion.html*/
 
                                  /*Comienzo regok.html*/
-
-.regok-container img{
-width: 100px;
-height: 100px;
-margin-left: 40px;
-margin-top: 50px;
+.header-regok__img{
+  width: 40%;
+  margin-left: 40px; 
+}
+.regok-container{
+  display: flex;
+  justify-content: center;
 }
 
 .regok-container p{
-font-size: 25px;
-margin-left: 0px;
+  font-size: 25px;
+  margin-left: 0px;
+
 }
 
 .regok-button{
@@ -1102,17 +1154,23 @@ margin: 10px 0;
 outline: none;
 }
 
+.footer-regok{
+  display: flex;
+  justify-content: flex-end;
+}
 .footer-regok a{
-font-size: 16px;
-padding-right: 5px;
-margin-right: 15px;
-text-decoration: none;
+  font-size: 14px;
+  padding-right: 5px;
+  margin-right: 15px;
+  text-decoration: none;
 }
 
                                  /*Fin regok.html*/
 
                                  /*Comienzo error.html*/
-
+.error-number{
+  margin-top: 150px;
+}
 .error-text{
 font-size: 30px;
 margin-left: 0px;
@@ -1121,11 +1179,16 @@ margin-top: 20px;
 
 .error-button{
 font-size: 18px;
-height: 40px;
-width: 70%;
+height: 50px;
+width: 65%;
 letter-spacing: 1px;
-margin: 10px 0;
 outline: none;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.footer-error{
+  justify-content: flex-end;
 }
 
 .footer-error a{
@@ -1144,46 +1207,50 @@ text-decoration: none;
   /* Comienzo index.html*/
 
   .header{
-    width: 300%;
+    width: 500%;
   }
   
   .header__img{
-   width: 30%;
-   margin-top: 50px;
+   width: 25%;
+   margin-top: 70px;
    margin-left: 30px;
   }
   
-  .header__menu li{
-    margin: 10px -40px;
+  .header__menu__profile img{
+    width: 18%;
+    height: 18%;
+    margin-left: -72px;
+    
   }
-  
-  li{
-    font-size: 25px;
+
+  .header__menu ul{
+    margin-left: 150px;
   }
-  
+
   .header__menu__profile{
-    margin-right: 50px; 
+    margin-right: 60px; 
     margin-top: 30px;
+   
   }
   
   .main{
-    width: 200%;
-    height: 300px;
-    margin-top: 10px;
+    width: 400%;
+    margin-top: 20px;
   }
 
   .main__title{
-    font-size: 30px;
+    font-size: 45px;
+    margin-bottom: 50px;
   }
   
   .categories__title {
-    margin-left: 30px;
-    font-size: 30px;
+    margin-left: 25px;
+    font-size: 40pxpx;
   }
 
   .carousel{
     overflow: scroll;
-    width: 190%;
+     width: 390%;
     
   }
 
@@ -1193,7 +1260,11 @@ text-decoration: none;
   }
 
   .footer{
-    width:210%;
+    width: 325%;
+    height: 400px;
+  }
+  .footer a{
+    font-size: 35px;
   }
   
   
@@ -1217,39 +1288,41 @@ margin-top: 40px;
 }
 
 .input-login {
-margin-bottom: 20px;
-padding: 0px 10px;
-outline: none;
-height: 40px;
-width: 180px;
+width: auto;
+margin-left: -10px;
+
+}
+
+.input-login::placeholder{
+  font-size: 16px;
 }
 
 .login-title{
-  font-size: 25px;
-}
-
-::placeholder{
-  font-size: 18px;
+  font-size: 22px;
+  margin-bottom: 50px;
+  margin-top: -10px;
 }
 
 .login-button{
 height: 35px;
-width: 245px;
-margin-top: 20px;
-margin-bottom: 20px;
+width: auto;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .login__container--form {
 margin-right: -20px;
+margin-top: -10px;
 
 }
 
 .login__container--form label {
 font-size: 12px;
 
+
 }
 .login__container--remember-me {
-margin-top: 16px;
+margin-top: 10px;
 margin-left: -20px;
 
 } 
@@ -1311,6 +1384,7 @@ margin-left: 20px;
 
   .register-title{
     font-size: 25px;
+    margin-top: -20px;
   }
 
 .input-register {
@@ -1322,14 +1396,18 @@ margin-left: 20px;
   }
 
 ::placeholder{
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .button-register{
-  height: 40px;
-  width: 260px;
+  height: 50px;
+  width: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  }
+
+  .button-register a{
+    font-size: 15px;
   }
 
 .register__container--form {
@@ -1337,18 +1415,18 @@ margin-left: 20px;
 
 }
 
-.register-init__container--register {
-  font-size: 12px;  
-  width: 250px;
-}
-
-.register-init__container--register p{
+.register-init{
   display: flex;
   justify-content: center;
-}
+  }
 
 .register-init__container--register a {
   font-size: 16px;  
+
+}
+
+.footer-register{
+  justify-content: center;
 }
 
 .footer-register a {
@@ -1367,14 +1445,22 @@ margin-left: 20px;
     margin-top: 15px;
     margin-left: 15px;
   }
+  
+  .salir-container{
+    display: flex;
+    justify-content: center;
+  }
+  
 
 .salir-container img{
-    margin-top: 40px;
+    
+  display: flex;
+  justify-content: center;
+  
 }
 
 .salir-container p{
-  font-size: 25px;
-  margin-left: 0px;
+  font-size: 20px;
 }
 
 .salir-button{
@@ -1395,24 +1481,32 @@ margin-left: 20px;
                                  /*Comienzo regok.html*/
 
 .header-regok__img{
-width: 280px;
+width: 60%;
 margin-top: 15px;
 margin-left: 15px;
 }
 
 .regok-container img{
 margin-top: 40px;
+margin-bottom: 10px;
 }
 
 .regok-container p{
-font-size: 25px;
+font-size: 20px;
 margin-left: 0px;
+margin-top: 0px;
 }
 
 .regok-button{
 font-size: 15px;
 width: 80%;
 height: 40px;
+margin-top: 30px;
+}
+
+.footer-regok{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-regok a{
@@ -1430,18 +1524,25 @@ text-decoration: none;
 .header-error__img{
 width: 280px;
 margin-top: 15px;
-margin-left: 15px;
+margin-left: 35px;
+margin-bottom: 0;
 }
 
 .error-text{
-font-size: 25px;
-margin-left: 0px;
+font-size: 23px;
+margin-top: 40px;
 }
 
 .error-button{
 font-size: 15px;
-width: 90%;
-height: 35px;
+width: 80%;
+height: 40px;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+.footer-error{
+  justify-content: flex-end;
 }
 
 .footer-error a{
@@ -1460,38 +1561,53 @@ text-decoration: none;
 /* Comienzo index.html*/
 
 .header{
-  width: 330%;
+  width: 530%;
 }
 
 .header__img{
-  width: 30%;
-  margin-top: 50px;
-  margin-left: 30px;
+  width: 25%;
+  margin-top: 100px;
+  
 }
 
+.header__menu__profile img{
+  width: 15% ;
+  height: 15% ;
+  margin-top: 50px;
+  margin-left: -10px;
+}
+
+.header__menu__profile p{
+  margin-bottom: 20px;
+}
 
 .header__menu__profile{
-  margin-left: -550px;
-  margin-top: 40px;
+  margin-left: -600px;
+  margin-top: 15px;
+
 }
 
+.header__menu ul{
+  margin-left: 190px;
+}
 .main{
-  width: 200%;
+  width: 400%;
   height: 350px;
   margin-top: 10px;
 }
 
 .main__title{
-  font-size: 30px;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .categories__title {
   margin-left: 15px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .carousel{
-  width: 190%;
+  width: 390%;
 
 }
 
@@ -1501,12 +1617,13 @@ text-decoration: none;
 }
 
 .footer{
-  width:190%;
+  width: 320%;
   height: 310px;
 }
 
 .footer a{
-  font-size: 20px;
+  
+  font-size: 30px;
 }
 
 
@@ -1517,43 +1634,45 @@ text-decoration: none;
   
   .header-login__img{
   width: 200px;
-  margin-top: 10px;
-  margin-left: 50px;
+  margin-top: 0px;
+  margin-left: 40px;
   }
 
 .login__container {
   padding: 40px 48px 20px;
   min-height: 500px;
-  width: 67%;
+  width: 60%;
   margin-top: 20px;
   }
 
   .login-title{
     font-size: 20px;
+    margin-top: 15px;
   }
   
-  ::placeholder{
-    font-size: 16px;
-  }
 
 .input-login {
-  font-size: 14px;
   margin-bottom: 15px;
   padding: 0px 10px;
   height: 40px;
-  width: 220px;
+  width: auto;
   margin-left: -18px;
   }
 
+  .input-login::placeholder{
+    font-size: 14px;
+  }
+
 .login-button{
-  height: 30px;
-  width: 250px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  height: 35px;
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   }
 
 .login-button a{
   font-size: 14px;
+  
 }
 
 .login__container--form {
@@ -1567,7 +1686,7 @@ text-decoration: none;
   }
 
 .login__container--remember-me {
-  margin-top: 14px;
+  margin-top: 10px;
   margin-left: -25px;
   
   } 
@@ -1594,8 +1713,12 @@ text-decoration: none;
 }
 
 .login__container--social-media > div > img {
-  width: 25px;
+  width: 2px;
 
+}
+
+.footer-login{
+  justify-content: center;
 }
 
 .footer-login a{
@@ -1611,14 +1734,14 @@ text-decoration: none;
 
   .header-register__img{
   width: 200px;
-  margin-top: 10px;
-  margin-left: 55px;
+  margin-top: 0px;
+  margin-left: 75px;
   }
 
 .register__container {
   padding: 40px 48px 20px;
   min-height: 500px;
-  width: 67%;
+  width: 60%;
   margin-top: 20px;
   }
 
@@ -1627,22 +1750,22 @@ text-decoration: none;
 }
 
 .input-register {
-  font-size: 14px;
   margin-bottom: 15px;
   padding: 0px 10px;
   height: 40px;
-  width: 210px;
+  width: auto;
   margin-left: -18px;
 
   }
 
   ::placeholder{
-    font-size: 15px;
+    font-size: 12px;
   }
 
+
 .button-register{
-  height: 32px;
-  width: 250px;
+  height: 45px;
+  width: auto;
   margin-top: 15px;
   margin-bottom: 15px;
 
@@ -1653,10 +1776,10 @@ text-decoration: none;
 
 }
 
-.register__container--form {
-  margin-right: -20px;
-
-  }
+  .register-init{
+    display: flex;
+    justify-content: center;
+    }
 
 .register-init__container--register a {
   font-size: 14px; 
@@ -1692,16 +1815,16 @@ margin-left: 0px;
 .salir-container img{
 width: 80px;
 height: 80px;
-margin-left: 40px;
+
 }
 
 .salir-button{
-font-size: 12px;
-height: 30px;
-width: 100%;
-letter-spacing: 1px;
-margin: 10px 0;
-outline: none;
+  font-size: 12px;
+  height: 35px;
+  width: 90%;
+  letter-spacing: 1px;
+  outline: none;
+  margin-top: 50px;
 }
 
 .footer-salir a{
@@ -1729,16 +1852,20 @@ margin-left: 0px;
 .regok-container img{
 width: 80px;
 height: 80px;
-margin-left: 40px;
+margin-bottom: 0;
 }
 
 .regok-button{
 font-size: 12px;
-height: 30px;
-width: 100%;
+height: 35px;
+width: 90%;
 letter-spacing: 1px;
-margin: 10px 0;
 outline: none;
+margin-top: 50px;
+}
+
+.footer-regok{
+  justify-content: center;
 }
 
 .footer-regok a{
@@ -1755,21 +1882,30 @@ text-decoration: none;
 .header-error__img{
 width: 200px;
 margin-top: 10px;
-margin-left: 10px;
+margin-left: 80px;
+}
+
+.error-number{
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .error-text{
-font-size: 18px;
-margin-left: 0px;
+font-size: 16px;
+margin-bottom: 60px;
 }
 
 .error-button{
 font-size: 12px;
-height: 30px;
-width: 100%;
+height: 35px;
+width: 85%;
 letter-spacing: 1px;
 margin: 10px 0;
 outline: none;
+}
+
+.footer-error{
+  justify-content: center;
 }
 
 .footer-error a{
@@ -1787,29 +1923,29 @@ text-decoration: none;
   /* Comienzo index.html*/
 
   .header{
-    width: 400%;
+    width: 550%;
   }
   
   .header__img{
-   width: 30%;
-   margin-top: 50px;
+   width: 25%;
+   margin-top: 100px;
    margin-left: 30px;
   }
   
   
   .header__menu__profile{
-   margin-left: -550px;
-    margin-top: 40px;
+   margin-left: -610px;
+    margin-top: 5px;
   }
   
   .main{
-    width: 270%;
-    height: 350px;
-    margin-top: 10px;
+    width: 400%;
+    margin-top: 20px;
   }
 
   .main__title{
     font-size: 35px;
+    margin-bottom: 50px;
   }
   
   .categories__title {
@@ -1818,7 +1954,7 @@ text-decoration: none;
   }
 
   .carousel{
-    width: 250%;
+    width: 390%;
   
   }
 
@@ -1828,12 +1964,12 @@ text-decoration: none;
   }
 
   .footer{
-    width:210%;
+    width:325%;
     height: 310px;
   }
 
   .footer a{
-    font-size: 20px;
+    font-size: 25px;
   }
   
 
@@ -1844,91 +1980,106 @@ text-decoration: none;
    
    .header-login__img{
     width: 200px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top:0px;
+    justify-content: center;
     }
 
   .login__container {
     padding: 40px 48px 20px;
-    min-height: 500px;
-    width: 67%;
+    min-height: 400px;
+    width: 60%;
     margin-top: 20px;
     }
 
     .login-title{
-      font-size: 20px;
+      font-size: 19px;
+      margin-top: 0px;
     }
     
-    ::placeholder{
-      font-size: 16px;
-    }
   
   .input-login {
     font-size: 14px;
     margin-bottom: 15px;
     padding: 0px 10px;
     height: 40px;
-    width: 200px;
-    margin-left: -18px;
+    width: auto;
+   
     }
   
   .login-button{
-    height: 30px;
-    width: 230px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: 40px;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     }
 
   .login-button a{
     font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 10px;
   }
   
   .login__container--form {
     margin-right: -20px;
   
    }
+
+   .input-login::placeholder{
+     font-size: 12px;
+   }
   
   .login__container--form label {
-    font-size: 12px;
+    font-size: 10px;
     
    }
 
   .login__container--remember-me {
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: -25px;
     
    } 
   .login__container--remember-me a {
-    font-size: 12px;
-    margin-top: 4px;
+    font-size: 10px;
+    margin-top: 6px;
   
    }
   
    .login__container--register {
     font-size: 12px;  
     width: 250px;
-    margin-left: -20px;
+    margin-left: -30px;
   }
   
   .login__container--register a {
-    font-size: 12px;  
+    font-size: 10px;  
   }
 
   .login__container--social-media > div {
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 10px;
     margin-top: 20px;
+    margin-right: -25px;
+  }
+
+  .login__container--social-media{
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   
   .login__container--social-media > div > img {
-    width: 25px;
+    width: 20px;
 
   }
+
+  .footer-login{
+  justify-content: center;
+}
+
   
   .footer-login a{
     font-size: 10px;
-    padding-right: 5px;
-    margin-right: 7px;
+    padding-right: 7px;
+    margin: 0px;
     text-decoration: none;
    }
    
@@ -1945,12 +2096,13 @@ text-decoration: none;
   .register__container {
     padding: 40px 48px 20px;
     min-height: 500px;
-    width: 67%;
+    width: 60%;
     margin-top: 20px;
     }
   
   .register-title{
     font-size: 20px;
+
   }
   
   .input-register {
@@ -1958,35 +2110,35 @@ text-decoration: none;
     margin-bottom: 15px;
     padding: 0px 10px;
     height: 40px;
-    width: 200px;
+    width: auto;
     margin-left: -18px;
   
     }
 
     ::placeholder{
-      font-size: 15px;
+      font-size: 12px;
     }
   
   .button-register{
-    height: 32px;
-    width: 230px;
+    height: 35px;
+    width: auto;
     margin-top: 15px;
     margin-bottom: 15px;
-  
+    margin-right: -9px;
     }
   
   .button-register a{
     font-size: 12px;
   
   }
-  
-  .register__container--form {
-    margin-right: -20px;
-  
+
+    .register-init{
+      display: flex;
+      justify-content: center;
     }
   
   .register-init__container--register a {
-    font-size: 14px; 
+    font-size: 12px; 
   
   }
   
@@ -1996,9 +2148,7 @@ text-decoration: none;
   
   .footer-register a{
     font-size: 10px;
-    padding-right: 5px;
-    margin-right: 7px;
-    margin-left: -3px;
+    
   }
 
                                  /*Fin registro.html*/
@@ -2019,16 +2169,16 @@ margin-left: 0px;
 .salir-container img{
 width: 80px;
 height: 80px;
-margin-left: 40px;
+
 }
 
 .salir-button{
-font-size: 12px;
-height: 30px;
-width: 100%;
-letter-spacing: 1px;
-margin: 10px 0;
-outline: none;
+  font-size: 12px;
+  height: 30px;
+  width: 95%;
+  letter-spacing: 1px;
+  outline: none;
+  margin-top: 40px;
 }
 
 .footer-salir a{
@@ -2045,27 +2195,31 @@ text-decoration: none;
 .header-regok__img{
 width: 200px;
 margin-top: 10px;
-margin-left: 10px;
+margin-left: 20px;
 }
 
 .regok-container p{
-font-size: 18px;
+font-size: 15px;
 margin-left: 0px;
+margin-top: 10px;
 }
 
 .regok-container img{
 width: 80px;
 height: 80px;
-margin-left: 40px;
 }
 
 .regok-button{
 font-size: 12px;
 height: 30px;
-width: 100%;
+width: 95%;
 letter-spacing: 1px;
-margin: 10px 0;
 outline: none;
+margin-top: 40px;
+}
+
+.footer-regok{
+  justify-content: center;
 }
 
 .footer-regok a{
@@ -2082,27 +2236,36 @@ text-decoration: none;
 .header-error__img{
 width: 200px;
 margin-top: 10px;
-margin-left: 10px;
+margin-left: 60px;
+}
+
+.error-number{
+  font-size: 60px;
 }
 
 .error-text{
-font-size: 18px;
-margin-left: 0px;
+font-size: 17px;
+margin-bottom: 40px;
+
 }
 
 .error-button{
 font-size: 12px;
-height: 30px;
-width: 100%;
+height: 35px;
+width: 90%;
 letter-spacing: 1px;
-margin: 10px 0;
 outline: none;
+
+}
+
+.footer-error{
+  justify-content: center;
 }
 
 .footer-error a{
 font-size: 10px;
 padding-right: 5px;
-margin-right: 7px;
+margin-right: 5px;
 text-decoration: none;
 }
                                  
